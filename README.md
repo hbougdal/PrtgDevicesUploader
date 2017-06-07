@@ -1,6 +1,7 @@
 
 # USE IT ON YOUR OWN RISK 
-This script takes a list of IPs/hostame in a CSV file and create corresponding devices in PRTG.The script checks first if the device exists in PRTG before adding it. It also starts monitoring on each added device.
+This script takes a list of IPs/hostame in a CSV file and create corresponding devices in PRTG.The script checks first if the device exists in PRTG before adding it. It also starts monitoring on each added device. The script generates an Excel file wwith a summary of devices which have been added into PRTG.
+
 # REQUIREMENTS
 This script is developed and test in Python 2.7.13. 
 The python package "xlsxwriter" (https://pypi.python.org/pypi/XlsxWriter) shall be installed.
